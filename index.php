@@ -28,6 +28,10 @@ $funcionarios = $consulta->fetchAll(PDO::FETCH_ASSOC);
 
     <h1>Lista de Funcionários</h1>
 
+    <a href="criar_funcionario.php">
+        <button>Cadastrar Funcionário</button>
+    </a>
+
     <table border="1">
         <thead>
             <tr>
